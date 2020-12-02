@@ -1,0 +1,221 @@
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    background-image: url('clik.jpg');
+    /* background-color: rgb(235, 132, 48); */
+    border-radius: 50%;
+    border: 15px solid rgb(38, 41, 33);
+    margin: auto;
+    position: relative;
+    box-shadow: 10px 10px 5px rgb(137, 139, 133);
+}
+
+#h_hand {
+    position: absolute;
+    border: 3px solid;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+}
+
+#m_hand {
+    position: absolute;
+    border: 2px solid;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    /* transform: rotate(45deg); */
+    transform-origin: top left;
+}
+
+#s_hand {
+    position: absolute;
+    border: 1px solid rgb(184, 183, 6);
+    border-radius: 1px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform-origin: top left;
+}
+
+#two {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(330deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#three {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(360deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#one {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(300deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#twelve {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(270deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#eleven {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(240deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#ten {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(210deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#nine {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(30%);
+    transform: rotate(180deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#eight {
+    position: absolute;
+    /* height:0px; */
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(150deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#seven {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(120deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#six {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#five {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(60deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#four {
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+    transform: rotate(30deg);
+    text-align: end;
+    transform-origin: top left;
+}
+
+#r_nine {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+#r_eight {
+    display: inline-block;
+    transform: rotate(210deg);
+}
+
+#r_seven {
+    display: inline-block;
+    transform: rotate(240deg);
+}
+
+#r_six {
+    display: inline-block;
+    transform: rotate(270deg);
+}
+
+#r_five {
+    display: inline-block;
+    transform: rotate(300deg);
+}
+
+#r_four {
+    display: inline-block;
+    transform: rotate(330deg);
+}
+
+#r_two {
+    display: inline-block;
+    transform: rotate(30deg);
+}
+
+#r_one {
+    display: inline-block;
+    transform: rotate(60deg);
+}
+
+#r_twelve {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+#r_eleven {
+    display: inline-block;
+    transform: rotate(120deg);
+}
+
+#r_ten {
+    display: inline-block;
+    transform: rotate(150deg);
+}
